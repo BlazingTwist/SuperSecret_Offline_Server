@@ -79,7 +79,7 @@ public abstract class WebServiceFunction implements HttpHandler {
 
 	public void respond(HttpExchange exchange, int responseCode, String response) {
 		try {
-			logger.trace("responding with: " + response);
+			logger.trace("responding with code {}", responseCode);
 
 			exchange.getResponseHeaders().add("Content-Type", "text/xml; charset=utf-8");
 			exchange.sendResponseHeaders(responseCode, response.length());

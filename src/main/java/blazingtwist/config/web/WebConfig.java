@@ -1,6 +1,6 @@
 package blazingtwist.config.web;
 
-import blazingtwist.config.JsonDefaultConstructor;
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.HashMap;
 
@@ -17,7 +17,7 @@ public class WebConfig {
 	@JsonProperty("functions")
 	private HashMap<String, WebFunctionConfig> webServiceFunctions;
 
-	@JsonDefaultConstructor
+	@JsonCreator
 	private WebConfig() {
 	}
 

@@ -13,24 +13,6 @@ public class GetDisplayNameByUserID extends WebServiceFunction {
 
 	@Override
 	public void handle(HttpExchange exchange, Map<String, String> params, Map<String, String> body) {
-		/*try {
-			JAXBContext contextObject = JAXBContext.newInstance(String.class);
-			Marshaller marshaller = contextObject.createMarshaller();
-			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-
-			StringWriter writer = new StringWriter();
-
-			JAXBElement<String> element = new JAXBElement<>(
-					QName.valueOf("string"),
-					String.class,
-					"test");
-
-			marshaller.marshal(element, writer);
-			logger.info("String: {}", writer.toString());
-		} catch (JAXBException e) {
-			e.printStackTrace();
-		}*/
-
 		// TODO
 	}
 }

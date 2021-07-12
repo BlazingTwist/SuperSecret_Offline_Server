@@ -31,35 +31,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		if (false) {
-			IllegalArgumentException e1 = new IllegalArgumentException("TestException 1");
-			IllegalArgumentException e2 = new IllegalArgumentException("TestException 2");
-			IllegalArgumentException e3 = new IllegalArgumentException("TestException 3");
-			IllegalArgumentException e4 = new IllegalArgumentException("TestException 4");
-			IllegalArgumentException e5 = new IllegalArgumentException("TestException 5");
+			//IllegalArgumentException e1 = new IllegalArgumentException("TestException 1");
+			//IllegalArgumentException e2 = new IllegalArgumentException("TestException 2");
+			//IllegalArgumentException e3 = new IllegalArgumentException("TestException 3");
+			//IllegalArgumentException e4 = new IllegalArgumentException("TestException 4");
+			//IllegalArgumentException e5 = new IllegalArgumentException("TestException 5");
 
-			logger.trace("This is a trace message", e1);
-			logger.debug("This is a debug message", e2);
-			logger.info("This is an info message", e3);
-			logger.warn("This is a warn message", e4);
-			logger.error("This is an error message", e5);
+			logger.trace("This is a trace message");
+			logger.debug("This is a debug message");
+			logger.info("This is an info message");
+			logger.warn("This is a warn message");
+			logger.error("This is an error message");
 
-			return;
-		}
-
-		if (false) {
-			try {
-				logger.info(TripleDes.encrypt("9bfb624e-04a6-473e-865e-777b4562cab5"));
-			} catch (Exception e) {
-
-			}
-
-			/*byte[] salt = new byte[16];
-			new Random().nextBytes(salt);
-			byte[] hash = BCrypt.with(BCrypt.Version.VERSION_2A).hash(12, salt, "SomeTestPassword".getBytes(StandardCharsets.UTF_16LE));
-			String utf8String = new String(hash, StandardCharsets.UTF_8);
-			String hashString = Base64.getEncoder().encodeToString(hash);
-			logger.info(utf8String);
-			logger.info(hashString);*/
 			return;
 		}
 

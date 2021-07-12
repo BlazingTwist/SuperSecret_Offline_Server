@@ -1,6 +1,6 @@
 package blazingtwist.config.web;
 
-import blazingtwist.config.JsonDefaultConstructor;
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class WebFunctionConfig {
@@ -10,7 +10,7 @@ public class WebFunctionConfig {
 	@JsonProperty("contextName")
 	private String contextName;
 
-	@JsonDefaultConstructor
+	@JsonCreator
 	private WebFunctionConfig() {
 	}
 
