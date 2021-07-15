@@ -1,9 +1,12 @@
 package blazingtwist.wswebservice;
 
-import blazingtwist.logback.LogbackLoggerProvider;
 import blazingtwist.crypto.TripleDes;
+import blazingtwist.logback.LogbackLoggerProvider;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Map;
 import java.util.regex.Pattern;
@@ -47,6 +50,29 @@ public class WebFunctionUtils {
 		return true;
 	}
 
+	public static String loadResourceAsString(String resourcePath) {
+		byte[] bytes = loadResource(resourcePath);
+		if(bytes == null){
+			return null;
+		}
+		return new String(bytes, StandardCharsets.UTF_8);
+	}
+
+	public static byte[] loadResource(String resourcePath) {
+		InputStream resourceAsStream = WebFunctionUtils.class.getClassLoader().getResourceAsStream(resourcePath);
+		if (resourceAsStream == null) {
+			logger.error("Failed to load {}", resourcePath);
+			return null;
+		}
+
+		try {
+			return resourceAsStream.readAllBytes();
+		} catch (IOException e) {
+			logger.error("Unexpected error while reading {}", resourcePath, e);
+			return null;
+		}
+	}
+
 	public static <T> T unmarshalEncryptedXml(String encryptedString, Class<T> clazz) throws JAXBException {
 		return unmarshalXml(TripleDes.decrypt(encryptedString), clazz);
 	}
@@ -63,15 +89,24 @@ public class WebFunctionUtils {
 		return TripleDes.encrypt(marshalXml(data, rootName, clazz, fragment));
 	}
 
-	public static <T> String marshalXml(T data, String rootName, Class<T> clazz, boolean fragment) throws JAXBException {
+	private static <T> Marshaller createMarshaller(Class<T> clazz, boolean fragment) throws JAXBException {
 		JAXBContext jaxbContext = JAXBContext.newInstance(clazz);
 		Marshaller marshaller = jaxbContext.createMarshaller();
 		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 		marshaller.setProperty(Marshaller.JAXB_FRAGMENT, fragment);
-		StringWriter writer = new StringWriter();
+		return marshaller;
+	}
 
+	public static <T> String marshalXml(T data, Class<T> clazz, boolean fragment) throws JAXBException {
+		StringWriter writer = new StringWriter();
+		createMarshaller(clazz, fragment).marshal(data, writer);
+		return writer.toString();
+	}
+
+	public static <T> String marshalXml(T data, String rootName, Class<T> clazz, boolean fragment) throws JAXBException {
+		StringWriter writer = new StringWriter();
 		JAXBElement<T> element = new JAXBElement<>(new QName(rootName), clazz, data);
-		marshaller.marshal(element, writer);
+		createMarshaller(clazz, fragment).marshal(element, writer);
 		return writer.toString();
 	}
 }

@@ -14,8 +14,6 @@ public class LogbackHighlightingCompositeConverter extends ForegroundCompositeCo
 				return ANSIConstants.RED_FG;
 			case Level.WARN_INT:
 				return ANSIConstants.YELLOW_FG;
-			case Level.INFO_INT:
-				return ANSIConstants.DEFAULT_FG;
 			case Level.DEBUG_INT:
 			case Level.TRACE_INT:
 				return ANSIConstants.WHITE_FG;

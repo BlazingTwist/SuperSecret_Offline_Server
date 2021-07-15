@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Gender - 
+   Unknown  0
+   Boy      1
+   girl     2
+	
+Allowed Tags - 
+
+  Social
+  Racing
+  Collection
+  Education
+  Puzzle
+  Shooter
+  Shopper
+  Nurturing
+  Customize
+ 	
+-->
+
+<LoadScreenData>
+  <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsFashionDesignWinners.png</Name>
+       <Tag>Social</Tag>
+		<Tag>Customize</Tag>
+    <SceneName/>
+    </LoadScreen>
+    <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsPetMembersonly.png</Name>
+        <Tag>Nurturing</Tag>
+      <SceneName/>
+    </LoadScreen>
+    <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsSushiChop.png</Name>
+       <Tag>Puzzle</Tag>
+      <SceneName/>
+    </LoadScreen>
+    <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsPenthouseNonMem.png</Name>
+       <Tag>Customize</Tag>
+      <SceneName/>
+    </LoadScreen>
+    <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsFashionNonMem.png</Name>
+      <Tag>Shopper</Tag>
+      <SceneName/>
+    </LoadScreen>
+    <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsPetsAvailable.png</Name>
+      <Tag>Nurturing</Tag>
+      <SceneName/>
+    </LoadScreen>
+    <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsPenthouseMem.png</Name>
+<!--      <Gender ID="1" />
+      <Age min="3" max="10" />
+-->	  <Tag>Customize</Tag>
+      <SceneName/>
+    </LoadScreen>
+     <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsFurniture.png</Name>
+<!--      <Gender ID="1" />
+      <Age min="3" max="10" />
+-->	  <Tag>Shopper</Tag>
+       <SceneName/>
+    </LoadScreen>
+	<PriorityLoadScreen Frequency="3" EnterScene="PetTokyoSS">
+    <LoadScreen>
+      <Name>http://media.supersecret.com/Content/SSJILZ/LoadScreens/en-US/SsLsPetMembersonly.png</Name>
+    </LoadScreen>
+  </PriorityLoadScreen>
+</LoadScreenData>

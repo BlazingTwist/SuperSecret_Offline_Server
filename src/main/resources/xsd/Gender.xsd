@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0"
-        xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
 
-    <xsi:simpleType name="Gender">
-        <xsi:annotation>
-            <xsi:appinfo>
+    <xsd:simpleType name="Gender">
+        <xsd:annotation>
+            <xsd:appinfo>
                 <jaxb:typesafeEnumClass/>
-            </xsi:appinfo>
-        </xsi:annotation>
-        <xsi:restriction base="xsd:int">
-            <xsi:enumeration value="0">
-                <xsi:annotation>
-                    <xsi:appinfo>
-                        <jaxb:typesafeEnumMember name="unknown"/>
-                    </xsi:appinfo>
-                </xsi:annotation>
-            </xsi:enumeration>
-            <xsi:enumeration value="1">
-                <xsi:annotation>
-                    <xsi:appinfo>
-                        <jaxb:typesafeEnumMember name="male"/>
-                    </xsi:appinfo>
-                </xsi:annotation>
-            </xsi:enumeration>
-            <xsi:enumeration value="2">
-                <xsi:annotation>
-                    <xsi:appinfo>
-                        <jaxb:typesafeEnumMember name="female"/>
-                    </xsi:appinfo>
-                </xsi:annotation>
-            </xsi:enumeration>
-        </xsi:restriction>
-    </xsi:simpleType>
-</xsi:schema>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="Gender")</annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="0">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:typesafeEnumMember name="Unknown"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="1">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:typesafeEnumMember name="Male"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="2">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:typesafeEnumMember name="Female"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

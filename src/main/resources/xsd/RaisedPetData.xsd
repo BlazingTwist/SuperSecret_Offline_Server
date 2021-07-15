@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="Guid.xsd"/>
+    <xsd:include schemaLocation="RaisedPetGrowthState.xsd"/>
+    <xsd:include schemaLocation="Gender.xsd"/>
+    <xsd:include schemaLocation="RaisedPetAccessory.xsd"/>
+    <xsd:include schemaLocation="RaisedPetAttribute.xsd"/>
+    <xsd:include schemaLocation="RaisedPetColor.xsd"/>
+    <xsd:include schemaLocation="RaisedPetSkill.xsd"/>
+    <xsd:include schemaLocation="RaisedPetState.xsd"/>
+
+    <xsd:complexType name="RaisedPetData">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="RaisedPetData")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="id" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="RaisedPetID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="uid" type="Guid">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="UserID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="n" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Name"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="ptid" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="PetTypeID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="gs" type="RaisedPetGrowthState">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="GrowthState"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ip" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="ImagePosition"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="g" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Geometry"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="t" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Texture"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="gd" type="Gender">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Gender"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="ac" type="RaisedPetAccessory">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Accessories"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="at" type="RaisedPetAttribute">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Attributes"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="c" type="RaisedPetColor">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Colors"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="sk" type="RaisedPetSkill">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Skills"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="st" type="RaisedPetState">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="States"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

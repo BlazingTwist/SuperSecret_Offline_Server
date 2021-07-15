@@ -25,7 +25,7 @@ public abstract class WebServiceFunction implements HttpHandler {
 	public static final String INTERNAL_ERROR = "Internal Server Error";
 	public static final String ERROR_INVALID_SIGNATURE = "Received invalid signature";
 
-	private final String contextName;
+	protected final String contextName;
 
 	public WebServiceFunction(String contextName) {
 		this.contextName = contextName;
@@ -37,15 +37,16 @@ public abstract class WebServiceFunction implements HttpHandler {
 
 	@Override
 	public void handle(HttpExchange exchange) throws IOException {
+		logger.trace("Called WebService Function {}", contextName);
+
 		String requestURI = exchange.getRequestURI().toString();
 		String[] uriSplit = requestURI.split("\\?");
 		Map<String, String> params = null;
 		if (uriSplit.length == 2) {
 			params = WebFunctionUtils.readUrlMap(uriSplit[1].replace('\r', ' '));
 
-			logger.trace("Called {} with params: ", contextName);
 			for (Map.Entry<String, String> paramEntry : params.entrySet()) {
-				logger.trace("\t{} = {}", paramEntry.getKey(), paramEntry.getValue());
+				logger.trace("\turlArg: {} = {}", paramEntry.getKey(), paramEntry.getValue());
 			}
 		}
 
@@ -60,9 +61,8 @@ public abstract class WebServiceFunction implements HttpHandler {
 				dataString = dataString.replace('\r', ' ');
 				body = WebFunctionUtils.readUrlMap(dataString);
 
-				logger.trace("Called {} with body: ", contextName);
 				for (Map.Entry<String, String> bodyEntry : body.entrySet()) {
-					logger.trace("\t{} = {}", bodyEntry.getKey(), bodyEntry.getValue());
+					logger.trace("\tbodyArg: {} = {}", bodyEntry.getKey(), bodyEntry.getValue());
 				}
 			}
 		}
@@ -81,7 +81,7 @@ public abstract class WebServiceFunction implements HttpHandler {
 		try {
 			logger.trace("responding with code {}", responseCode);
 
-			exchange.getResponseHeaders().add("Content-Type", "text/xml; charset=utf-8");
+			exchange.getResponseHeaders().add(CONTENT_TYPE, "text/xml; charset=utf-8");
 			exchange.sendResponseHeaders(responseCode, response.length());
 			OutputStream outputStream = exchange.getResponseBody();
 			outputStream.write(response.getBytes());
@@ -89,6 +89,35 @@ public abstract class WebServiceFunction implements HttpHandler {
 			outputStream.close();
 		} catch (IOException e) {
 			logger.error("Unable to send response! context: {}", contextName, e);
+		}
+	}
+
+	public void respond(HttpExchange exchange, int responseCode, byte[] response, String contentType) {
+		try {
+			logger.trace("responding with code {}", responseCode);
+
+			exchange.getResponseHeaders().add(CONTENT_TYPE, contentType);
+			exchange.sendResponseHeaders(responseCode, response.length);
+			OutputStream outputStream = exchange.getResponseBody();
+			outputStream.write(response);
+			outputStream.flush();
+			outputStream.close();
+		} catch (IOException e) {
+			logger.error("Unable to send response! context: {}", contextName, e);
+		}
+	}
+
+	public <T> void respondXml(HttpExchange exchange, int responseCode, T response, boolean encrypt) {
+		try {
+			@SuppressWarnings("unchecked")
+			String resultString = WebFunctionUtils.marshalXml(response, (Class<T>) response.getClass(), encrypt);
+			if (encrypt) {
+				resultString = WebFunctionUtils.marshalXml(TripleDes.encrypt(resultString), "string", String.class, false);
+			}
+			respond(exchange, responseCode, resultString);
+		} catch (JAXBException e) {
+			logger.error("Error during respondXml", e);
+			respond(exchange, 500, INTERNAL_ERROR);
 		}
 	}
 

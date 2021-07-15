@@ -13,6 +13,7 @@ public class GetProductData extends WebServiceFunction {
 
 	@Override
 	public void handle(HttpExchange exchange, Map<String, String> params, Map<String, String> body) {
+		respond(exchange, 200, "OK");
 		// TODO
 	}
 }

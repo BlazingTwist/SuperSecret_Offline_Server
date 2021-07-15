@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="BadgeDataBadgePieceDialog.xsd"/>
+    <xsd:include schemaLocation="BadgeDataBadgeCompleteDialog.xsd"/>
+
+    <xsd:complexType name="BadgeDataBadge">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="BadgeDataBadge")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="BadgeId" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Name" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Description" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="Experience" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="Pieces" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Mask" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Color" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Grey" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="PieceDialog" type="BadgeDataBadgePieceDialog"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="CompleteDialog" type="BadgeDataBadgeCompleteDialog"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

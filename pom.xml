@@ -41,6 +41,7 @@
                         <arg>-Xequals</arg>
                         <arg>-XhashCode</arg>
                         <arg>-Xcopyable</arg>
+                        <arg>-Xannotate</arg>
                     </args>
                     <cleanPackageDirectories>true</cleanPackageDirectories>
                     <schemaDirectory>${project.basedir}/src/main/resources/xsd</schemaDirectory>
@@ -55,6 +56,11 @@
                             <groupId>com.github.jaxb-xew-plugin</groupId>
                             <artifactId>jaxb-xew-plugin</artifactId>
                             <version>1.11</version>
+                        </plugin>
+                        <plugin>
+                            <groupId>org.jvnet.jaxb2_commons</groupId>
+                            <artifactId>jaxb2-basics-annotate</artifactId>
+                            <version>1.0.2</version>
                         </plugin>
                     </plugins>
                 </configuration>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:complexType name="GamePlayData">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="GamePlayData")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="GMID" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="GameID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="PLCT" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="PlayCount"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

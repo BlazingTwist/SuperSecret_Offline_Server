@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="HelpPhrase.xsd"/>
+
+    <xsd:complexType name="HelpPhrase">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="HelpPhrase")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ID" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Panel" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Display" type="xsd:string"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Phrase" type="HelpPhrase">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="HelpPhrases"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

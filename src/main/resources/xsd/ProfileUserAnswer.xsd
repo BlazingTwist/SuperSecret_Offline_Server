@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:complexType name="ProfileUserAnswer">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="ProfileUserAnswer")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="AID" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="AnswerID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="QID" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="QuestionID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

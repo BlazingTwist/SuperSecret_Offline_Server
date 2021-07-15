@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="AdData.xsd"/>
+
+    <xsd:complexType name="ProductConfig">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="ProductConfig")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ContentServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="AnalyticsServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ConfigurationServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MembershipServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="AuthenticationServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="AvatarWebServiceURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MessagingServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="AchievementServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ItemStoreServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MissionServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="SubscriptionServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="FacebookServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="TrackServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ScoreServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="RatingServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="LocaleServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="UserServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MessageServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ChatServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="InviteServerURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="SubscribeURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="TokenExpiredURL" type="xsd:string"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="ContentDataURL" type="xsd:string"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="DataURL" type="xsd:string"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="SharedDataURL" type="xsd:string"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="SoundURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MoviesURL" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="AppURL" type="xsd:string"/>
+
+            <xsd:element maxOccurs="1" minOccurs="0" name="SubscribeText" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="TokenExpiredText" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="TokenExpiredTextID" type="xsd:int"/>
+
+            <xsd:element maxOccurs="1" minOccurs="0" name="Token" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ConsolePassword" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MMOServer" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MMOForceVersion" type="xsd:boolean"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MMOServerVersion" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MMOServerPort" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MMOIdleTimeout" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="LogEventServer" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="DisableCache" type="xsd:boolean"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="DisconnectText" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="DisconnectTextID" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="AdData" type="AdData"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="FacebookAppId" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="FacebookInviteTargetUrl" type="xsd:string"/>
+
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

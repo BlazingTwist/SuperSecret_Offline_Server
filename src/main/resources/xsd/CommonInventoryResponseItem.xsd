@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0"
-        xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
 
-    <xsi:complexType name="CommonInventoryResponseItem">
-        <xsi:sequence>
-            <xsi:element maxOccurs="1" minOccurs="1" name="iid" type="xsd:int">
-                <xsi:annotation>
-                    <xsi:appinfo>
-                        <jaxb:property name="itemID"/>
-                    </xsi:appinfo>
-                </xsi:annotation>
-            </xsi:element>
-            <xsi:element maxOccurs="1" minOccurs="1" name="cid" type="xsd:int">
-                <xsi:annotation>
-                    <xsi:appinfo>
-                        <jaxb:property name="commonInventoryID"/>
-                    </xsi:appinfo>
-                </xsi:annotation>
-            </xsi:element>
-        </xsi:sequence>
-    </xsi:complexType>
-</xsi:schema>
+    <xsd:complexType name="CommonInventoryResponseItem">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">
+                    @javax.xml.bind.annotation.XmlRootElement(name="CommonInventoryResponseItem")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="iid" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="ItemID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="cid" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="CommonInventoryID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

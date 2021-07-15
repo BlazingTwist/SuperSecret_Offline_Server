@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="Guid.xsd"/>
+
+    <xsd:complexType name="TrackInfo">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="TrackInfo")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="id" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="UserTrackID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="utcid" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="UserTrackCategoryID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="uid" type="Guid">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="UserID"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="nm" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Name"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="iu" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="ImageURL"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="1" name="is" type="xsd:boolean">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="IsShared"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="sl" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Slot"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="cd" type="xsd:dateTime">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="CreatedDate"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element maxOccurs="1" minOccurs="0" name="md" type="xsd:dateTime">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="ModifiedDate"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

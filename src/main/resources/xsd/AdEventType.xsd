@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:simpleType name="AdEventType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <jaxb:typesafeEnumClass/>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="AdEventType")</annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="MAIN_MENU"/>
+            <xsd:enumeration value="MORE_GAMES"/>
+            <xsd:enumeration value="REGISTER_TAPPED"/>
+            <xsd:enumeration value="LOGIN_TAPPED"/>
+            <xsd:enumeration value="GEMS_SLOT"/>
+            <xsd:enumeration value="MEMBER_SLOT"/>
+            <xsd:enumeration value="PLAY_TAPPED"/>
+            <xsd:enumeration value="PROFILE_CREATION"/>
+            <xsd:enumeration value="STORE_ENTERED"/>
+            <xsd:enumeration value="JOURNAL_ENTERED"/>
+            <xsd:enumeration value="PROFILE_PAGE"/>
+            <xsd:enumeration value="FIELD_GUIDE"/>
+            <xsd:enumeration value="BACKPACK_ENTERED"/>
+            <xsd:enumeration value="SETTINGS_PAGE"/>
+            <xsd:enumeration value="HELP_GUIDE"/>
+            <xsd:enumeration value="LAB_ENTERED"/>
+            <xsd:enumeration value="LEVEL_COMPLETE"/>
+            <xsd:enumeration value="LEVEL_FAILED"/>
+            <xsd:enumeration value="PLAYER_LEVELUP"/>
+            <xsd:enumeration value="DRAGON_LEVELUP"/>
+            <xsd:enumeration value="GENERIC"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

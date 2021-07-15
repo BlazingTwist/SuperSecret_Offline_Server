@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:complexType name="UserTreasureChestDataChest">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">
+                    @javax.xml.bind.annotation.XmlRootElement(name="UserTreasureChestDataChest")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Name" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ItemId" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="GameCurrency" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="Found" type="xsd:boolean"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

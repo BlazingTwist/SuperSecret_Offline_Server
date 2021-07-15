@@ -13,6 +13,7 @@ public class IsValidToken extends WebServiceFunction {
 
 	@Override
 	public void handle(HttpExchange exchange, Map<String, String> params, Map<String, String> body) {
+		respondXml(exchange, 200, true, "boolean", false);
 		// TODO
 	}
 }

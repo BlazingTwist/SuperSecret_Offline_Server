@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductConfig>
+    <ContentServerURL>http://127.0.0.1:7502/</ContentServerURL>
+    <AnalyticsServerURL>http://127.0.0.1:7502/</AnalyticsServerURL>
+    <ConfigurationServerURL>http://127.0.0.1:7502/</ConfigurationServerURL>
+    <MembershipServerURL>http://127.0.0.1:7502/</MembershipServerURL>
+    <AuthenticationServerURL>http://127.0.0.1:7502/</AuthenticationServerURL>
+    <AvatarWebServiceURL>http://127.0.0.1:7502/</AvatarWebServiceURL>
+    <MessagingServerURL>http://127.0.0.1:7502/</MessagingServerURL>
+    <AchievementServerURL>http://127.0.0.1:7502/</AchievementServerURL>
+    <ItemStoreServerURL>http://127.0.0.1:7502/</ItemStoreServerURL>
+    <MissionServerURL>http://127.0.0.1:7502/</MissionServerURL>
+    <SubscriptionServerURL>http://127.0.0.1:7502/</SubscriptionServerURL>
+    <TrackServerURL>http://127.0.0.1:7502/</TrackServerURL>
+    <ScoreServerURL>http://127.0.0.1:7502/</ScoreServerURL>
+    <RatingServerURL>http://127.0.0.1:7502/</RatingServerURL>
+    <LocaleServerURL>http://127.0.0.1:7502/</LocaleServerURL>
+    <UserServerURL>http://127.0.0.1:7502/</UserServerURL>
+    <MessageServerURL>http://127.0.0.1:7502/</MessageServerURL>
+    <ChatServerURL>http://127.0.0.1:7502/</ChatServerURL>
+    <InviteServerURL>http://127.0.0.1:7502/</InviteServerURL>
+    <SubscribeURL>http://127.0.0.1:7502/</SubscribeURL>
+    <TokenExpiredURL>http://127.0.0.1:7502/</TokenExpiredURL>
+
+    <ContentDataURL>http://127.0.0.1:7502/GetAsset</ContentDataURL>
+    <DataURL>http://127.0.0.1:7502/GetAsset</DataURL>
+    <SharedDataURL>http://127.0.0.1:7502/GetAsset</SharedDataURL>
+    <SoundURL>http://127.0.0.1:7502/GetAsset</SoundURL>
+    <MoviesURL>http://127.0.0.1:7502/GetAsset</MoviesURL>
+    <AppURL>http://127.0.0.1:7502/GetAsset</AppURL>
+
+    <SubscribeText>RS_SHARED/BecomeAMember-Hub.ogg</SubscribeText>
+    <TokenExpiredText>Auto disconnect: your character has been idle for too long.</TokenExpiredText>
+    <TokenExpiredTextID>0</TokenExpiredTextID>
+
+    <Token>${TOKEN_PLACEHOLDER}</Token>
+    <ConsolePassword>fed96c1ea23bc9b28be910f1d1a9d72c</ConsolePassword>
+
+    <MMOServer>23.100.42.41</MMOServer>
+    <!--<MMOForceVersion>false</MMOForceVersion>-->
+    <!--<MMOServerVersion>    </MMOServerVersion>-->
+    <!--<MMOServerPort>    </MMOServerPort>-->
+    <MMOIdleTimeout>240</MMOIdleTimeout>
+
+    <LogEventServer>198.61.145.46</LogEventServer>
+    <!--<DisableCache>    </DisableCache>-->
+
+    <DisconnectText>Your character has been idle for too long.  Click OK to reconnect.</DisconnectText>
+    <DisconnectTextID>0</DisconnectTextID>
+
+    <AdData>
+        <Show>false</Show>
+        <FirstTime>false</FirstTime>
+        <Settings>
+            <!-- Normal Mode -->
+            <DisplayTime>10</DisplayTime>
+            <Frequency>1</Frequency>
+        </Settings>
+        <Settings>
+            <!-- Loading Mode -->
+            <DisplayTime>10</DisplayTime>
+            <Frequency>1</Frequency>
+            <Exception>ABWoodSteelDay</Exception>
+        </Settings>
+    </AdData>
+
+
+    <FacebookAppId>346818662048093</FacebookAppId>
+    <FacebookInviteTargetUrl>http://jumpstart-ss-web.cloudapp.net/Invite/Signup.aspx?invitefriend=</FacebookInviteTargetUrl>
+</ProductConfig>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="Step.xsd"/>
+
+    <xsd:complexType name="MissionDataMissionStep">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">
+                    @javax.xml.bind.annotation.XmlRootElement(name="MissionDataMissionStep")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="StepID" type="xsd:int"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="TaskID" type="xsd:int"/>
+
+            <xsd:element maxOccurs="1" minOccurs="1" name="_Completed" type="xsd:boolean">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Completed"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element maxOccurs="1" minOccurs="1" name="_Restart" type="xsd:boolean">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Restart"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element maxOccurs="1" minOccurs="1" name="_TaskToStart" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="TaskToStart"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element maxOccurs="1" minOccurs="0" name="_Data" type="Step">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="Data"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="_CompletedTasks" type="xsd:int">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="CompletedTasks"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

@@ -1,2 +1,6 @@
 # Exclude all files by default.
 /.*/=exclude
+
+/generated\.AvatarDataPart\..*/=include
+/generated\.ProductData\..*/=include
+/generated\.SceneData\..*/=include

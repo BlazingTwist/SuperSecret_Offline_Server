@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:complexType name="BadgeDataBadgePieceDialog">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">
+                    @javax.xml.bind.annotation.XmlRootElement(name="BadgeDataBadgePieceDialog")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="FileName" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="NPC" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Bundle" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="_BundleReady" type="xsd:boolean">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="BundleReady"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

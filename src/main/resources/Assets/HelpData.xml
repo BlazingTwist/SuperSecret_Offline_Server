@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpActionData>
+  <Help>
+    <HelpPhrase>
+      <Panel>How do I go to</Panel>
+      <Phrase>
+        <ID>1000</ID>
+        <Panel>...Rodeo Racing</Panel>
+        <Display>Rodeo Racing is in the Plaza. You can directly run into it or you can launch it from the Quick Launch.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1010</ID>
+        <Panel>...the Crush RollerCoaster?</Panel>
+        <Display>The Crush is in the Plaza by the ticket booth.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1020</ID>
+        <Panel>...Free Fall Mountain?</Panel>
+        <Display>Freefall Mountain is inside Adventure Lounge, which is just off of the Plaza. You can also launch it from the Quick Launch.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1030</ID>
+        <Panel>...Windy Hollows?</Panel>
+        <Display>Windy Hollows is inside Adventure Lounge which is just off of the Plaza. You can also launch it from Quick Launch menu.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1040</ID>
+        <Panel>...Enchanted Sanctuary?</Panel>
+        <Display>Enchanted Sanctuary is inside Adventure Lounge which is just off of the Plaza. You can also launch it from the Quick Launch menu.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1050</ID>
+        <Panel>...Dance Off?</Panel>
+        <Display>Dance Off is inside Club SuperSecret. Enter Club SuperSecret and run to one of the Dance Off stages when an alert is sounded and the stairs drop.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1060</ID>
+        <Panel>...Backstage?</Panel>
+        <Display>Backstage is for members only.  It is accessed at the back of Club SuperSecret.... just look for the bouncer!</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1070</ID>
+        <Panel>...Fashion Show?</Panel>
+        <Display>Fashion Show is found in the Backstage area of the Club. Look for the door with the star on it.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1080</ID>
+        <Panel>...Band Jam?</Panel>
+        <Display>Band Jam is in backstage at Club SuperSecret. Walk to the stage entrance on the right by the curtains.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1090</ID>
+        <Panel>...Stores?</Panel>
+        <Display>You can go to the stores anytime by clicking on the stores icon in the top right corner of the screen. / You can also visit the stores through the closet by selecting the store icon on the closet screen.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1100</ID>
+        <Panel>...the Closet?</Panel>
+        <Display>You can visit the Closet anytime by clicking on the Closet icon on the tool bar. / You can also visit the Closet through the clothing store by clicking on the Closet icon on the Store screen.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1110</ID>
+        <Panel>...Quick Launch?</Panel>
+        <Display>The Quick Launch is on the toolbar and also in the My Home Page.  Use it to jump directly to the games listed.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1120</ID>
+        <Panel>...Clothing Store?</Panel>
+        <Display>The clothing store is accessible from your closet, clicking on the shopping bag icon in the upper right,  or walking into the Forever Chic store in the Plaza.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1130</ID>
+        <Panel>...my Profile?</Panel>
+        <Display>Your Profile is accessed by clicking on the About Me icon on the left of the toolbar.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1140</ID>
+        <Panel>...my Homepage?</Panel>
+        <Display>Your Homepage is accessed by clicking on the My Homepage icon on the left of the toolbar.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1150</ID>
+        <Panel>...my Message Board?</Panel>
+        <Display>Your Message Board can be accessed by clicking on the Envelope icon on the left of the toolbar.</Display>
+      </Phrase>
+    </HelpPhrase>
+    <HelpPhrase>
+      <Panel>How do I get</Panel>
+      <Phrase>
+        <ID>1500</ID>
+        <Panel>...more Style Bucks?</Panel>
+        <Display>You can earn Style Bucks by playing arcade games.  Arcade games are in Club SuperSecret and on the Quick Launch menu.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1510</ID>
+        <Panel>...more Style Points?</Panel>
+        <Display>Style Points are awarded for completing achievements and playing arcade games. / Achievements are given for all kinds of things such as making friends, raising mythies, casting spells and much more.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1520</ID>
+        <Panel>...new stuff?</Panel>
+        <Display>You can purchase new clothing, footwear and many more items from the clothing store. New items are unlocked as you move up in levels too!</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1530</ID>
+        <Panel>...more friends?</Panel>
+        <Display>Add friends by clicking on their avatar and clicking on the plus icon at the top of their profile. / Also, if you know your friend's code, you can simply enter it in the Booth inside your Friends List.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1540</ID>
+        <Panel>...higher Levels?</Panel>
+        <Display>The more Style Points you earn, the higher your level will be. Higher levels have access to more clothing, games and features!</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1550</ID>
+        <Panel>...achievements?</Panel>
+        <Display>Each achievement has a set of actions to perform. Click on the Smartphone, then click on the Achievements button. / Click on any achievement to know what set of actions are required to get that particular achievement.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>1560</ID>
+        <Panel>...membership?</Panel>
+        <Display>Click on the Membership icon in the upper left corner to go to the Membership page where you can become a full fledged SuperSecret VIP member!</Display>
+      </Phrase>
+    </HelpPhrase>
+    <HelpPhrase>
+      <Panel>How do I find</Panel>
+      <Phrase>
+        <ID>2000</ID>
+        <Panel>...my friends?</Panel>
+        <Display>You can click on the Friends List icon on the tool bar to see who is online. / You can also click on the Booth button and to see who is online, offline and those you ignored.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>2010</ID>
+        <Panel>...Arcade Games?</Panel>
+        <Display>Inside Club SuperSecret you can click on any table place card to play games. You can also find arcade games on the Quick Launch on the toolbar.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>2020</ID>
+        <Panel>...my Mythie details?</Panel>
+        <Display>Click on the Smartphone, and then click on the Enchanted Sanctuary button and select the type of your mythie to view your mythie details.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>2030</ID>
+        <Panel>...achievements?</Panel>
+        <Display>Click on the Smartphone, and then click on the Achievements button to see your achievements. / You can click on any achievement to find out what you need to do to complete it. </Display>
+      </Phrase>
+    </HelpPhrase>
+    <HelpPhrase>
+      <Panel>How do I use</Panel>
+      <Phrase>
+        <ID>2500</ID>
+        <Panel>...Super Chat?</Panel>
+        <Display>Click in the Chat field in the center of the toolbar.  If you don't have Super Chat enabled it will prompt you to send an email to get permission.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>2510</ID>
+        <Panel>...Canned Chat?</Panel>
+        <Display>You can click on the Chat icon on the tool bar to see a list of phrases.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>2520</ID>
+        <Panel>...my Closet?</Panel>
+        <Display>You can go to your Closet to dress up your character exactly the way you like it. You can select from various options available.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>2530</ID>
+        <Panel>...the Store?</Panel>
+        <Display>Choose a category and select an item to see it on your avatar.  Click the buy button to purchase an item and add it to your Closet.</Display>
+      </Phrase>
+    </HelpPhrase>
+    <HelpPhrase>
+      <Panel>How do I change</Panel>
+      <Phrase>
+        <ID>3000</ID>
+        <Panel>...my avatar's appearance?</Panel>
+        <Display>You can change your avatar's appearance at any time from the Closet. / Click on the closet and select items of your choice to see them on your avatar. If you are a member you will have many more options to choose from.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>3010</ID>
+        <Panel>...my avatar's gender?</Panel>
+        <Display>You can change your avatar's gender from the Closet. Click on the gender option inside Closet and select a gender of your choice.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>3020</ID>
+        <Panel>...my Mood?</Panel>
+        <Display>Click on the About Me page or My Home Page, and then click on the My Mood icon to change your mood.</Display>
+      </Phrase>
+      <Phrase>
+        <ID>3030</ID>
+        <Panel>...my country?</Panel>
+        <Display>Click on the About Me page or My Home Page, and then click on the Country icon to change your country.</Display>
+      </Phrase>
+    </HelpPhrase>
+    <HelpPhrase>
+      <Panel>How do I report someone?</Panel>
+      <Phrase>
+        <ID>4000</ID>
+        <Panel>...using Moderator?</Panel>
+        <Display>If someone is breaking the rules, click on them, and then click on the moderator button.</Display>
+      </Phrase>
+    </HelpPhrase>
+  </Help>
+</HelpActionData>

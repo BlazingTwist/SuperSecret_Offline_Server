@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="Guid.xsd"/>
+    <xsd:include schemaLocation="UserRank.xsd"/>
+
+    <xsd:complexType name="UserRankData">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="UserRankData")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="UserID" type="Guid"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="Points" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="CurrentRank" type="UserRank"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MemberRank" type="UserRank"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="NextRank" type="UserRank"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox"
+            xmlns="http://api.jumpstart.com/" targetNamespace="http://api.jumpstart.com/">
+
+    <xsd:include schemaLocation="Gender.xsd"/>
+
+    <xsd:element name="UserInfo" type="UserInfo"/>
+
+    <xsd:complexType name="UserInfo">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="UserInfo")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="MembershipID" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="UserID" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="ParentUserID" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Username" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="FirstName" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="MultiplayerEnabled" type="xsd:boolean"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="BirthDate" type="xsd:dateTime"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="GenderID" type="Gender"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Age" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Partner" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Locale" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="oce" type="xsd:boolean">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <jaxb:property name="OpenChatEnabled"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.1.0" elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+            xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox">
+
+    <xsd:include schemaLocation="StepTaskDialog.xsd"/>
+    <xsd:include schemaLocation="StepTaskMessage.xsd"/>
+    <xsd:include schemaLocation="StepTaskHelp.xsd"/>
+    <xsd:include schemaLocation="StepTaskRewardPlayerItem.xsd"/>
+    <xsd:include schemaLocation="StepTaskObjective.xsd"/>
+
+    <xsd:complexType name="StepTask">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <annox:annotate target="class">@javax.xml.bind.annotation.XmlRootElement(name="StepTask")
+                </annox:annotate>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="TaskID" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Type" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Dialog" type="StepTaskDialog"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Message" type="StepTaskMessage"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="SetupGroup" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="SetupScene" type="xsd:string"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Help" type="StepTaskHelp"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="RewardPlayerItem" type="StepTaskRewardPlayerItem"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="Experience" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Time" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Objective" type="StepTaskObjective"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

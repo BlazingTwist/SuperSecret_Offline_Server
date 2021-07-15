@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductConfig>
+    <ContentServerURL>http://jumpstart-api-contentserver.cloudapp.net/ContentWebService.asmx/</ContentServerURL>
+    <AnalyticsServerURL>http://jumpstart-api-analytics.cloudapp.net/AnalyticsWebService.asmx/</AnalyticsServerURL>
+    <ConfigurationServerURL>http://jumpstart-api-common.cloudapp.net/ConfigurationWebService.asmx/</ConfigurationServerURL>
+    <MembershipServerURL>http://jumpstart-api-common.cloudapp.net/MembershipWebService.asmx/</MembershipServerURL>
+    <AuthenticationServerURL>http://jumpstart-api-common.cloudapp.net/AuthenticationWebService.asmx/</AuthenticationServerURL>
+    <AvatarWebServiceURL>http://jumpstart-api-common.cloudapp.net/AvatarWebService.asmx/</AvatarWebServiceURL>
+    <MessagingServerURL>http://jumpstart-api-common.cloudapp.net/MessagingWebService.asmx/</MessagingServerURL>
+    <AchievementServerURL>http://jumpstart-api-achievement.cloudapp.net/AchievementWebService.asmx/</AchievementServerURL>
+    <ItemStoreServerURL>http://jumpstart-api-itemstoremission.cloudapp.net/ItemStoreWebService.asmx/</ItemStoreServerURL>
+    <MissionServerURL>http://jumpstart-api-itemstoremission.cloudapp.net/MissionWebService.asmx/</MissionServerURL>
+    <SubscriptionServerURL>http://jumpstart-api-common.cloudapp.net/SubscriptionWebService.asmx/</SubscriptionServerURL>
+    <TrackServerURL>http://jumpstart-api-contentserver.cloudapp.net/ContentWebService.asmx/</TrackServerURL>
+    <ScoreServerURL>http://jumpstart-api-contentserver.cloudapp.net/ScoreWebService.asmx/</ScoreServerURL>
+    <RatingServerURL>http://jumpstart-api-contentserver.cloudapp.net/RatingWebService.asmx/</RatingServerURL>
+    <LocaleServerURL>http://jumpstart-api-itemstoremission.cloudapp.net/LocaleService.asmx/</LocaleServerURL>
+    <UserServerURL>http://jumpstart-api-user.cloudapp.net/ProfileWebService.asmx/</UserServerURL>
+    <MessageServerURL>http://jumpstart-api-messaging.cloudapp.net/MessageWebService.asmx/</MessageServerURL>
+    <ChatServerURL>http://jumpstart-api-common.cloudapp.net/ChatWebService.asmx/</ChatServerURL>
+    <InviteServerURL>http://jumpstart-api-contentserver.cloudapp.net/InviteFriendWebService.asmx/</InviteServerURL>
+    <SubscribeURL>http://jumpstart-ss-web.cloudapp.net/Membership/Default.aspx</SubscribeURL>
+    <SubscribeText>RS_SHARED/BecomeAMember-Hub.ogg</SubscribeText>
+    <TokenExpiredURL>http://jumpstart-ss-web.cloudapp.net/launch.aspx</TokenExpiredURL>
+    <TokenExpiredText>Auto disconnect: your character has been idle for too long.</TokenExpiredText>
+    <TokenExpiredTextID>0</TokenExpiredTextID>
+    <ContentDataURL>http://media.supersecret.com/SSUnity/Locale/en-US/ContentData</ContentDataURL>
+    <DataURL>http://media.supersecret.com/SSUnity/Locale/en-US/Data</DataURL>
+    <SharedDataURL>http://media.supersecret.com/SSUnity/Locale/en-US/SharedData</SharedDataURL>
+    <SoundURL>http://media.supersecret.com/SSUnity/Locale/en-US/Sound</SoundURL>
+    <MoviesURL>http://media.supersecret.com/SSUnity/Locale/en-US/Movies</MoviesURL>
+    <AppURL>http://media.supersecret.com/SSUnity</AppURL>
+    <Token/>
+    <ConsolePassword>fed96c1ea23bc9b28be910f1d1a9d72c</ConsolePassword>
+    <MMOServer>23.100.42.41</MMOServer>
+    <MMOIdleTimeout>240</MMOIdleTimeout>
+    <LogEventServer>198.61.145.46</LogEventServer>
+    <DisconnectText>Your character has been idle for too long.  Click OK to reconnect.</DisconnectText>
+    <DisconnectTextID>0</DisconnectTextID>
+    <AdData>
+        <Show>true</Show>
+        <FirstTime>false</FirstTime>
+        <Settings>
+            <!-- Normal Mode -->
+            <DisplayTime>10</DisplayTime>
+            <Frequency>1</Frequency>
+        </Settings>
+        <Settings>
+            <!-- Loading Mode -->
+            <DisplayTime>10</DisplayTime>
+            <Frequency>1</Frequency>
+            <Exception>ABWoodSteelDay</Exception>
+        </Settings>
+    </AdData>
+    <!-- FACEBOOK CONFIG -->
+    <FacebookAppId>346818662048093</FacebookAppId>
+    <FacebookInviteTargetUrl>http://jumpstart-ss-web.cloudapp.net/Invite/Signup.aspx?invitefriend=</FacebookInviteTargetUrl>
+</ProductConfig>

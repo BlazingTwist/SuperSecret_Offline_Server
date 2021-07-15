@@ -21,12 +21,12 @@ public class GetDWADragonsMainXml extends WebServiceFunction {
 	public void handle(HttpExchange exchange, Map<String, String> params, Map<String, String> body) {
 		InputStream xmlStream;
 		if(provideLocalUrls){
-			xmlStream = this.getClass().getClassLoader().getResourceAsStream("GameConfigLocal.xml");
+			xmlStream = this.getClass().getClassLoader().getResourceAsStream("ProductConfig-Local.xml");
 		}else{
-			xmlStream = this.getClass().getClassLoader().getResourceAsStream("GameConfig.xml");
+			xmlStream = this.getClass().getClassLoader().getResourceAsStream("ProductConfig.xml");
 		}
 		if(xmlStream == null){
-			logger.error("Failed to load GameConfig.xml");
+			logger.error("Failed to load ProductConfig.xml");
 			respond(exchange, 500, INTERNAL_ERROR);
 			return;
 		}

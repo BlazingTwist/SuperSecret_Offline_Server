@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NPCMessageData>
+	<ChatText ID="10001">
+		<Message NPCID="-1" Text="Hello there."/>
+	</ChatText>
+	<ChatText ID="10500">
+		<Message NPCID="-1" Text="Hello there."/>
+	</ChatText>
+	<ChatText ID="11000">
+		<Message NPCID="-1" Text="Hello there."/>
+	</ChatText>
+	<ChatText ID="11500">
+		<Message NPCID="-1" Text="Just enjoying the day. You?"/>
+	</ChatText>
+	<ChatText ID="12001">
+		<Message NPCID="-1" Text="Hello, my friend."/>
+	</ChatText>
+	<ChatText ID="12002">
+		<Message NPCID="-1" Text="Hello, my friend."/>
+	</ChatText>
+	<ChatText ID="12003">
+		<Message NPCID="-1" Text="Hello, my friend."/>
+	</ChatText>
+	<ChatText ID="12500">
+		<Message NPCID="-1" Text="It's nice to meet you, too!"/>
+	</ChatText>
+	<ChatText ID="13000">
+		<Message NPCID="-1" Text="Morning"/>
+	</ChatText>
+	<ChatText ID="13500">
+		<Message NPCID="-1" Text="Afternoon"/>
+	</ChatText>
+	<ChatText ID="14000">
+		<Message NPCID="-1" Text="Evening"/>
+	</ChatText>
+	<ChatText ID="14500">
+		<Message NPCID="-1" Text="Hello there."/>
+	</ChatText>
+	<ChatText ID="15000">
+		<Message NPCID="-1" Text="Yee haw"/>
+	</ChatText>
+	<ChatText ID="20000">
+		<Message NPCID="-1" Text="Come back soon."/>
+	</ChatText>
+	<ChatText ID="20500">
+		<Message NPCID="-1" Text="Come back soon."/>
+	</ChatText>
+	<ChatText ID="21000">
+		<Message NPCID="-1" Text="Come back soon."/>
+	</ChatText>
+	<ChatText ID="21500">
+		<Message NPCID="-1" Text="Come back soon."/>
+	</ChatText>
+	<ChatText ID="22001"> 	
+		<Message NPCID="-1" Text="See you later."/>
+	</ChatText>
+	<ChatText ID="22002">
+		<Message NPCID="-1" Text="See you later."/>
+	</ChatText>
+	<ChatText ID="22003">
+		<Message NPCID="-1" Text="See you later."/>
+	</ChatText>
+	<ChatText ID="22500">
+		<Message NPCID="-1" Text="Sleep tight."/>
+	</ChatText>
+	<ChatText ID="23000">
+		<Message NPCID="-1" Text="...in a while crocodile."/>
+	</ChatText>
+	<ChatText ID="23500">
+		<Message NPCID="-1" Text="See you later."/>
+	</ChatText>
+	<ChatText ID="24000">
+		<Message NPCID="-1" Text="You too!"/>
+	</ChatText>
+	<ChatText ID="24500">
+		<Message NPCID="-1" Text="See you later."/>
+	</ChatText>
+	<ChatText ID="25000">
+		<Message NPCID="-1" Text="See you later."/>
+	</ChatText>
+	<ChatText ID="26000">
+		<Message NPCID="-1" Text="See you later."/>
+	</ChatText>
+<!-- 
+    Types of Messages
+    -1 - character specific messages
+    1 - cust msgs - birthday messages
+    2 - cust msgs - AvName messages
+    3 - cust msgs - Achievement -Ribbon messages
+    4 - general messages
+    5 - cust msgs - Achievement -Trophy messages
+    -->
+  <Message ID="0" Type="1" Text = "Happy Birthday, [PlayerName]! I hope you have a special day."/>
+  <Message ID="1" Type="1" Text = "[PlayerName], Did you make a wish for your birthday?"/>
+  <Message ID="2" Type="1" Text = "Happy Birthday, [PlayerName]!"/>
+  <Message ID="3" Type="1" Text = "[PlayerName], I hope you have the best birthday ever!!!"/>
+  <Message ID="4" Type="1" Text = "Happy Birthday, [PlayerName]! Have a great day."/>
+  <Message ID="5" Type="1" Text = "It's your birthday, [PlayerName]! Are you having a party?"/>
+  
+  <Message ID="100" Type="2" Text = "Hello, [PlayerName]. Nice to see you!"/>
+  <Message ID="101" Type="2" Text = "Hi [PlayerName]!!"/>
+  <Message ID="102" Type="2" Text = "What's going on [PlayerName]?"/>
+  <Message ID="103" Type="2" Text = "Hello [PlayerName]. What fun things do you have planned today?"/>
+  <Message ID="104" Type="2" Text = "Are you ready to jump into JumpStart, [PlayerName]?"/>
+  <Message ID="105" Type="2" Text = "Good seeing you, [PlayerName]!"/>
+  
+  <Message ID="200" Type="3" Text = "Congrats [PlayerName], you just earned the [Achievement] ribbon."/>
+  <Message ID="201" Type="3" Text = "Look at you, [PlayerName], earning a ribbon for [Achievement]."/>
+  <Message ID="202" Type="3" Text = "What a great job, [PlayerName], for earning yourself the [Achievement] ribbon."/>
+  <Message ID="203" Type="3" Text = "Congrats [PlayerName], you received the [Achievement] ribbon."/>
+  <Message ID="204" Type="3" Text = "You did it, [PlayerName]! You just earned a ribbon for [Achievement]."/>
+  <Message ID="205" Type="3" Text = "A Ribbon for [Achievement]! Congrats [PlayerName]!"/>
+  
+  <Message ID="300" Type="4" Text = "Lovely day, isn’t it?"/>
+  <Message ID="301" Type="4" Text = "Nice to see your face around here."/>
+  <Message ID="302" Type="4" Text = "What's it going to be today, my friend?"/>
+  <Message ID="303" Type="4" Text = "Got a lot planned today?"/>
+  <Message ID="304" Type="4" Text = "Can't beat a day playing JumpStart."/>
+  <Message ID="305" Type="4" Text = "I'm so happy you're here!"/>
+  
+  <Message ID="500" Type="5" Text = "Congrats [PlayerName], you just earned the [Achievement] trophy."/>
+  <Message ID="501" Type="5" Text = "I see you just received the [Achievement] trophy, [PlayerName]."/>
+  <Message ID="502" Type="5" Text = "Awesome job [PlayerName]. You just got the [Achievement] trophy."/>
+  <Message ID="503" Type="5" Text = "[PlayerName], you're amazing for earning the [Achievement] trophy."/>
+  <Message ID="504" Type="5" Text = "Perfection achieved, [PlayerName]! You've earned the [Achievement] trophy."/>
+  <Message ID="505" Type="5" Text = "You did it, [PlayerName]. You received the [Achievement] trophy."/>
+  
+  <Message ID="600" Type="-1" Text = ""/>
+  <Message ID="601" Type="-1" Text = "Need an underwater adventure? Why don't you visit MarineLand."/>
+  <Message ID="602" Type="-1" Text = ""/>
+  <Message ID="603" Type="-1" Text = ""/>
+  <Message ID="604" Type="-1" Text = "Check out the shops. There are always new pets, rides and clothes to buy."/>
+<!-- 
+    PlazaSS Faris
+    -->
+  <!--    
+  <Message ID="1000" Type="-1" Text = "Hi. I'm Faris Stilton. I know fashion. That's Hot.  Have you checked out your Penthouse? Decorate it up and maybe I will stop by."/>
+  <Message ID="1001" Type="-1" Text = "Have you tried playing an arcade game?  You earn Style Bucks to buy stylish clothes and furniture"/>
+  
+  <Message ID="1002" Type="-1" Text = "Hey there. To earn Style Bucks play the Arcade games in the Quicklaunch"/>
+  <Message ID="1003" Type="-1" Text = "Hey have you seen Madame Wu's 'special' pets?  She's kinda freaky, but her pets are adorable! I want one of every color. Visit Madame Wu's…you won't be sorry!"/>
+  
+  <Message ID="1004" Type="-1" Text = "I just love this place. It's totally hot.  Faris Stilton loves SuperSecret!  It's Hot"/>
+  <Message ID="1005" Type="-1" Text = "The Movie Theater is great. Have you been there yet?"/>
+  
+  <Message ID="1006" Type="-1" Text = "Hey there. I'm Faris Stilton and I'm hot. Check out your Penthouse.  Its hot"/>
+    -->
+  <!-- 
+ PlazaSS The Beever
+    -->
+  <Message ID="2000" Type="-1" Text = "Hi, Justin Dweeber here.  I can do cool hand dances!  SuperSecret rocks, just like one of my concerts! Check it out."/>
+  <Message ID="2001" Type="-1" Text = "Have you checked out Rodeo Racing?  Cool cars and fast times.  Check it out in the Quicklaunch."/>
+  <Message ID="2002" Type="-1" Text = "Hi I'm Justin. To earn Style Bucks, play the Arcade games in the Quicklaunch. You can buy furniture and clothing with the money you earn!"/>
+  <Message ID="2003" Type="-1" Text = "Did you know you can raise a dragon in Enchanted Sanctuary.  Just go to the Adventure Lounge."/>
+  <Message ID="2005" Type="-1" Text = "Have you rocked out in Club SuperSecret?  Dancing, a Fashion Show, and a live band!  I hope they book Justin Dweeber in there soon!"/>
+ <Message ID="2004" Type="-1" Text = "There's some really cool pets inside Madame Wu's Secret Emporium! Make sure you check 'em out!"/>
+ <Message ID="2006" Type="-1" Text = "Hi, I'm Justin Dweeber and I love SuperSecret.  Have you checked out your Penthouse?"/> 
+  <!-- 
+ PlazaSS Burger Guy
+    -->
+  <Message ID="3000" Type="-1" Text = "Monthly special here, get the monthly special!"/>
+  <Message ID="3001" Type="-1" Text = "Special of the month just for you, click here."/>
+  <Message ID="3002" Type="-1" Text = "Special of the month here, Just a click away."/>
+  <Message ID="3003" Type="-1" Text = "Get your monthly special, a deal you can't refuse.  Just click on the hamburger stand."/>
+</NPCMessageData>

@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmoticonActionData>
+  <BundleName>RS_SHARED/SSAvatarEmotes.unity3d</BundleName>
+  <Emoticons>
+    <Emoticon>
+      <ID>1</ID>
+      <Name>Awful</Name>
+      <Icon>IcoEmotesAwful</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesAwful</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>2</ID>
+      <Name>Confused</Name>
+      <Icon>IcoEmotesConfused</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesConfused</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>3</ID>
+      <Name>Cool</Name>
+      <Icon>IcoEmotesCool</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesCool</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>4</ID>
+      <Name>Cry</Name>
+      <Icon>IcoEmotesCrying</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesCrying</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <!--    <Emoticon>
+      <ID>5</ID>
+      <Name>Devilish</Name>
+      <Icon>IcoEmotesDevil</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesDevil</Texture>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Emoticon> -->
+    <Emoticon>
+      <ID>6</ID>
+      <Name>Embarassed</Name>
+      <Icon>IcoEmotesEmbarassed</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesEmbarassed</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>7</ID>
+      <Name>Happy</Name>
+      <Icon>IcoEmotesHappy</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesHappy</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>8</ID>
+      <Name>Headphones</Name>
+      <Icon>IcoEmotesHeadphones</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesHeadphones</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>9</ID>
+      <Name>Mad</Name>
+      <Icon>IcoEmotesMad</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesMad</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>10</ID>
+      <Name>King</Name>
+      <Icon>IcoEmotesKing</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesKing</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>11</ID>
+      <Name>Smile</Name>
+      <Icon>IcoEmotesLaugh</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesLaugh</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>12</ID>
+      <Name>Love</Name>
+      <Icon>IcoEmotesLove</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesLove</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>13</ID>
+      <Name>Ninja</Name>
+      <Icon>IcoEmotesNinja</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesNinja</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>14</ID>
+      <Name>NoTalking</Name>
+      <Icon>IcoEmotesNoTalking</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesNoTalking</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>15</ID>
+      <Name>Pirate</Name>
+      <Icon>IcoEmotesPirate</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesPirate</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>16</ID>
+      <Name>Smug</Name>
+      <Icon>IcoEmotesSmug</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesSmug</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>17</ID>
+      <Name>Yawn</Name>
+      <Icon>IcoEmotesRelaxed</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesRelaxed</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>18</ID>
+      <Name>Sad</Name>
+      <Icon>IcoEmotesSad</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesSad</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>19</ID>
+      <Name>Saint</Name>
+      <Icon>IcoEmotesSaint</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesSaint</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>20</ID>
+      <Name>Sick</Name>
+      <Icon>IcoEmotesSick</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesSick</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>21</ID>
+      <Name>Surprised</Name>
+      <Icon>IcoEmotesSurprised</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesSurprised</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>22</ID>
+      <Name>Tongue Out</Name>
+      <Icon>IcoEmotesTongue</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesTongue</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+    <Emoticon>
+      <ID>23</ID>
+      <Name>Party</Name>
+      <Icon>IcoEmotesPartyHat</Icon>
+      <Emitter>PfPrtEmotes</Emitter>
+      <Texture>IcoEmotesPartyHat</Texture>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Emoticon>
+  </Emoticons>
+  <Actions>
+    <Action>
+      <ID>1</ID>
+      <Name>Fist Pump</Name>
+      <Icon>IcoActionsFistPump</Icon>
+      <Animation>EmoteFistPump</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>2</ID>
+      <Name>Excited</Name>
+      <Icon>IcoActionsExcited</Icon>
+      <Animation>EmoteExcited</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>3</ID>
+      <Name>Shrug</Name>
+      <Icon>IcoActionsShrug</Icon>
+      <Animation>EmoteShrug</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>4</ID>
+      <Name>Toe Touch</Name>
+      <Icon>IcoActionsToeTouch</Icon>
+      <Animation>EmoteToeTouch</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>5</ID>
+      <Name>Sad</Name>
+      <Icon>IcoActionsSad</Icon>
+      <Animation>EmoteSad</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>6</ID>
+      <Name>Hello</Name>
+      <Icon>IcoActionsHello</Icon>
+      <Animation>EmoteHello</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>7</ID>
+      <Name>Flex</Name>
+      <Icon>IcoActionsFlex</Icon>
+      <Animation>EmoteFlex</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>8</ID>
+      <Name>Yes</Name>
+      <Icon>IcoActionsYes</Icon>
+      <Animation>EmoteYes</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>9</ID>
+      <Name>Salute</Name>
+      <Icon>IcoActionsSalute</Icon>
+      <Animation>EmoteSalute</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>10</ID>
+      <Name>Pushup</Name>
+      <Icon>IcoActionsOneArmedPushUp</Icon>
+      <Animation>EmoteOneArmedPushUp</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>11</ID>
+      <Name>Come Here</Name>
+      <Icon>IcoActionsComeHere</Icon>
+      <Animation>EmoteComeHere</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <!--    <Action>
+      <ID>12</ID>
+      <Name>Clap</Name>
+      <Icon>IcoActionsClap</Icon>
+      <Animation>EmoteClap</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action> -->
+    <Action>
+      <ID>13</ID>
+      <Name>Laugh</Name>
+      <Icon>IcoActionsLaugh</Icon>
+      <Animation>EmoteLaugh</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>14</ID>
+      <Name>Chin-Up</Name>
+      <Icon>IcoActionsChinUp</Icon>
+      <Animation>EmoteChinUp</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>15</ID>
+      <Name>No Way</Name>
+      <Icon>IcoActionsNoWay</Icon>
+      <Animation>EmoteNoWay</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>16</ID>
+      <Name>Listen Up</Name>
+      <Icon>IcoActionsListen</Icon>
+      <Animation>EmoteListen</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>17</ID>
+      <Name>Bye</Name>
+      <Icon>IcoActionsBye</Icon>
+      <Animation>EmoteGoodbye</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>18</ID>
+      <Name>Kisses</Name>
+      <Icon>IcoActionsBlowKiss</Icon>
+      <Animation>EmoteBlowKiss</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>19</ID>
+      <Name>Break Dance</Name>
+      <Icon>IcoActionsDance</Icon>
+      <Animation>EmoteDanceBreakDance</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>20</ID>
+      <Name>Cabbage Patch</Name>
+      <Icon>IcoActionsDance</Icon>
+      <Animation>EmoteDanceCabbagePatch</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>21</ID>
+      <Name>Head Banger</Name>
+      <Icon>IcoActionsDance</Icon>
+      <Animation>EmoteDanceHeadBang01</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>22</ID>
+      <Name>Macarena</Name>
+      <Icon>IcoActionsDance</Icon>
+      <Animation>EmoteDanceMacarena</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>23</ID>
+      <Name>Running Man</Name>
+      <Icon>IcoActionsDance</Icon>
+      <Animation>EmoteDanceRunningMan</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <!--	<Action>
+      <ID>24</ID>
+      <Name>Shy</Name>
+      <Icon>IcoActionsShy</Icon>
+      <Animation>EmoteShy</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>25</ID>
+      <Name>Ta Da!</Name>
+      <Icon>IcoActionsTaDa</Icon>
+      <Animation>EmoteTaDa</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>
+	<Action>
+      <ID>26</ID>
+      <Name>Talk</Name>
+      <Icon>IcoActionsTalk</Icon>
+      <Animation>EmoteTalk</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>27</ID>
+      <Name>Yawn</Name>
+      <Icon>IcoActionsYawn</Icon>
+      <Animation>EmoteYawn</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>    
+	<Action>
+      <ID>28</ID>
+      <Name>What!</Name>
+      <Icon>IcoActionsWhat</Icon>
+      <Animation>EmoteWhat</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>   
+	<Action>
+      <ID>29</ID>
+      <Name>Handstand</Name>
+      <Icon>IcoActionsHandStand</Icon>
+      <Animation>EmoteHandStand</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>30</ID>
+      <Name>Beg</Name>
+      <Icon>IcoActionsBeg</Icon>
+      <Animation>EmoteBeg</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>    
+	<Action>
+      <ID>31</ID>
+      <Name>Rub Head and Pat Stomach</Name>
+      <Icon>IcoActionsRubHeadPatStom</Icon>
+      <Animation>EmoteRubHeadStomach</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>32</ID>
+      <Name>Cheer</Name>
+      <Icon>IcoActionsCheer</Icon>
+      <Animation>EmoteCheer</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>    
+	<Action>
+      <ID>33</ID>
+      <Name>Scold</Name>
+      <Icon>IcoActionsScold</Icon>
+      <Animation>EmoteScold</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>34</ID>
+      <Name>Bow</Name>
+      <Icon>IcoActionsBow</Icon>
+      <Animation>EmoteBow</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action>    
+	<Action>
+      <ID>35</ID>
+      <Name>Cry</Name>
+      <Icon>IcoActionsCry</Icon>
+      <Animation>EmoteCry</Animation>
+      <IsLoop>false</IsLoop>
+      <Rollover></Rollover>
+      <Locked>false</Locked>
+    </Action> -->
+    <Action>
+      <ID>36</ID>
+      <Name>Dance 01</Name>
+      <Icon>IcoActionsEmoteSSDance01</Icon>
+      <Animation>EmoteSSDance01</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>37</ID>
+      <Name>Dance 02</Name>
+      <Icon>IcoActionsEmoteSSDance02</Icon>
+      <Animation>EmoteSSDance02</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>38</ID>
+      <Name>Dance 03</Name>
+      <Icon>IcoActionsEmoteSSDance03</Icon>
+      <Animation>EmoteSSDance03</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>39</ID>
+      <Name>Dance 04</Name>
+      <Icon>IcoActionsEmoteSSDance04</Icon>
+      <Animation>EmoteSSDance04</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>40</ID>
+      <Name>Dance 05</Name>
+      <Icon>IcoActionsEmoteSSDance05</Icon>
+      <Animation>EmoteSSDance05</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+    <Action>
+      <ID>41</ID>
+      <Name>Dance 06</Name>
+      <Icon>IcoActionsEmoteSSDance06</Icon>
+      <Animation>EmoteSSDance06</Animation>
+      <IsLoop>true</IsLoop>
+      <Rollover/>
+      <Locked>false</Locked>
+    </Action>
+  </Actions>
+  <CannedChat>
+    <Phrase>
+      <Panel>Hello</Panel>
+      <Phrase>
+        <ID>551</ID>
+        <Panel>Hello</Panel>
+        <Bubble>Hello</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>552</ID>
+        <Panel>Hey!</Panel>
+        <Bubble>Hey!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>553</ID>
+        <Panel>Hi</Panel>
+        <Bubble>Hi</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>554</ID>
+        <Panel>Hi there.</Panel>
+        <Bubble>Hi there.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>555</ID>
+        <Panel>Sup?</Panel>
+        <Bubble>Sup?</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>556</ID>
+        <Panel>Hi, I'm new...</Panel>
+        <Bubble>Hi, I'm new...</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>557</ID>
+        <Panel>Nice to meet you.</Panel>
+        <Bubble>Nice to meet you.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>558</ID>
+        <Panel>How's it goin?</Panel>
+        <Bubble>How's it goin?</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>559</ID>
+        <Panel>Hola!</Panel>
+        <Bubble>Hola!</Bubble>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>Good bye</Panel>
+      <Phrase>
+        <ID>651</ID>
+        <Panel>See ya!</Panel>
+        <Bubble>See ya!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>652</ID>
+        <Panel>Good bye.</Panel>
+        <Bubble>Good bye.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>653</ID>
+        <Panel>L8tr.</Panel>
+        <Bubble>L8tr.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>654</ID>
+        <Panel>Bye.</Panel>
+        <Bubble>Bye.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>655</ID>
+        <Panel>Catch ya!</Panel>
+        <Bubble>Catch ya!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>656</ID>
+        <Panel>See you tomorrow.</Panel>
+        <Bubble>See you tomorrow.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>657</ID>
+        <Panel>Night!</Panel>
+        <Bubble>Night!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>658</ID>
+        <Panel>Later.</Panel>
+        <Bubble>Later.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>659</ID>
+        <Panel>TTYL</Panel>
+        <Bubble>TTYL</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>660</ID>
+        <Panel>Take care!</Panel>
+        <Bubble>Take care!</Bubble>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>About me</Panel>
+      <Phrase>
+        <Panel>I am...</Panel>
+        <Phrase>
+          <Panel>Feelings</Panel>
+          <Phrase>
+            <ID>751</ID>
+            <Panel>happy</Panel>
+            <Bubble>I am happy.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>752</ID>
+            <Panel>soooo excited</Panel>
+            <Bubble>I am sooo excited!</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>753</ID>
+            <Panel>scared</Panel>
+            <Bubble>I am scared.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>754</ID>
+            <Panel>hungry</Panel>
+            <Bubble>I am hungry.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>755</ID>
+            <Panel>good</Panel>
+            <Bubble>I am good.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>715</ID>
+            <Panel>sorry</Panel>
+            <Bubble>I am sorry.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>756</ID>
+            <Panel>tired</Panel>
+            <Bubble>I am tired.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>757</ID>
+            <Panel>mad</Panel>
+            <Bubble>I am mad.</Bubble>
+            <Phrase>
+              <ID>758</ID>
+              <Panel>heartbroken</Panel>
+              <Bubble>I am heartbroken.</Bubble>
+            </Phrase>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Personality</Panel>
+          <Phrase>
+            <ID>850</ID>
+            <Panel>smart</Panel>
+            <Bubble>I am smart.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>851</ID>
+            <Panel>goofy</Panel>
+            <Bubble>I am goofy.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30052</ID>
+            <Panel>funny</Panel>
+            <Bubble>I am funny.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>853</ID>
+            <Panel>serious</Panel>
+            <Bubble>I am serious.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>854</ID>
+            <Panel>cool</Panel>
+            <Bubble>I am cool.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>855</ID>
+            <Panel>awesome</Panel>
+            <Bubble>I am awesome!</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>856</ID>
+            <Panel>a princess</Panel>
+            <Bubble>I am a princess.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>857</ID>
+            <Panel>laid back</Panel>
+            <Bubble>I am laid back!</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>858</ID>
+            <Panel>dork</Panel>
+            <Bubble>I am a dork!</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>859</ID>
+            <Panel>rebel</Panel>
+            <Bubble>I am a rebel!</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Jobs</Panel>
+          <Phrase>
+            <ID>860</ID>
+            <Panel>an artist</Panel>
+            <Bubble>I am an artist.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>861</ID>
+            <Panel>a pirate</Panel>
+            <Bubble>I am a pirate.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>863</ID>
+            <Panel>a princess</Panel>
+            <Bubble>I am a princess</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>864</ID>
+            <Panel>a fashion designer</Panel>
+            <Bubble>I am a fashion designer.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>865</ID>
+            <Panel>a dancer</Panel>
+            <Bubble>I am a dancer.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>866</ID>
+            <Panel>a diva</Panel>
+            <Bubble>I am a diva.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>867</ID>
+            <Panel>a shopaholic</Panel>
+            <Bubble>I am a shopaholic.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>868</ID>
+            <Panel>a rock star</Panel>
+            <Bubble>I am a rock star.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>869</ID>
+            <Panel>a movie star</Panel>
+            <Bubble>I am a movie star.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>870</ID>
+            <Panel>a secret agent</Panel>
+            <Bubble>I am a secret agent</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Sports</Panel>
+          <Phrase>
+            <ID>30150</ID>
+            <Panel>an athlete</Panel>
+            <Bubble>I am an athlete.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30151</ID>
+            <Panel>a volleyball player</Panel>
+            <Bubble>I am a volleyball player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30152</ID>
+            <Panel>a basketball player</Panel>
+            <Bubble>I am a basketball player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30153</ID>
+            <Panel>a baseball player</Panel>
+            <Bubble>I am a baseball player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30154</ID>
+            <Panel>a softball player</Panel>
+            <Bubble>I am a softball player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30155</ID>
+            <Panel>a football player</Panel>
+            <Bubble>I am a football player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30156</ID>
+            <Panel>a hockey player</Panel>
+            <Bubble>I am a hockey player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30157</ID>
+            <Panel>a water polo player</Panel>
+            <Bubble>I am a water polo player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30158</ID>
+            <Panel>a soccer player</Panel>
+            <Bubble>I am a soccer player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30159</ID>
+            <Panel>a tennis player</Panel>
+            <Bubble>I am a tennis player.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30160</ID>
+            <Panel>a cheerleader</Panel>
+            <Bubble>I am a cheerleader.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30161</ID>
+            <Panel>a gymnast</Panel>
+            <Bubble>I am a gymnast.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>30162</ID>
+            <Panel>a swimmer</Panel>
+            <Bubble>I am a swimmer.</Bubble>
+          </Phrase>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>I like...</Panel>
+        <Phrase>
+          <Panel>Activities</Panel>
+          <Phrase>
+            <ID>950</ID>
+            <Panel>to make friends</Panel>
+            <Bubble>I like to make friends.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>951</ID>
+            <Panel>to be creative</Panel>
+            <Bubble>I like to be creative.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>952</ID>
+            <Panel>to dance</Panel>
+            <Bubble>I like to dance.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>953</ID>
+            <Panel>to chat</Panel>
+            <Bubble>I like to chat.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>954</ID>
+            <Panel>to shop</Panel>
+            <Bubble>I like to shop.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>955</ID>
+            <Panel>to text</Panel>
+            <Bubble>I like to text.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>956</ID>
+            <Panel>to learn</Panel>
+            <Bubble>I like to learn.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>957</ID>
+            <Panel>to watch t.v.</Panel>
+            <Bubble>I like to watch t.v.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>958</ID>
+            <Panel>to hang with my frinds</Panel>
+            <Bubble>I like to hang with my friends.</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Places</Panel>
+          <Phrase>
+            <ID>3050</ID>
+            <Panel>to go to concerts</Panel>
+            <Bubble>I like to go to concerts.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3051</ID>
+            <Panel>to go to the movies</Panel>
+            <Bubble>I like to go to the movies.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3052</ID>
+            <Panel>to go to the mall</Panel>
+            <Bubble>I like to go to the mall.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3053</ID>
+            <Panel>to travel</Panel>
+            <Bubble>I like to travel.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3054</ID>
+            <Panel>to go to school dances</Panel>
+            <Bubble>I like to go to school dances.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3055</ID>
+            <Panel>to hangout in my room</Panel>
+            <Bubble>I like to hangout in my room.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3056</ID>
+            <Panel>to hang with my family</Panel>
+            <Bubble>I like to hang with my family.</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Pets</Panel>
+          <Phrase>
+            <ID>3150</ID>
+            <Panel>cats</Panel>
+            <Bubble>I like cats.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3151</ID>
+            <Panel>dogs</Panel>
+            <Bubble>I like dogs.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3152</ID>
+            <Panel>goldfish</Panel>
+            <Bubble>I like goldfish.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3153</ID>
+            <Panel>hamsters</Panel>
+            <Bubble>I like hamsters.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3154</ID>
+            <Panel>sloths</Panel>
+            <Bubble>I like sloths.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3155</ID>
+            <Panel>bunnies</Panel>
+            <Bubble>I like bunnies.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3156</ID>
+            <Panel>birds</Panel>
+            <Bubble>I like birds</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3157</ID>
+            <Panel>koalas</Panel>
+            <Bubble>I like koalas.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3158</ID>
+            <Panel>turtles</Panel>
+            <Bubble>I like turtles.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3159</ID>
+            <Panel>platypus</Panel>
+            <Bubble>I like platypus.</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Wild animals</Panel>
+          <Phrase>
+            <ID>3250</ID>
+            <Panel>tigers</Panel>
+            <Bubble>I like tigers.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3251</ID>
+            <Panel>lions</Panel>
+            <Bubble>I like lions.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3252</ID>
+            <Panel>bears</Panel>
+            <Bubble>I like bears.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3253</ID>
+            <Panel>jaguars</Panel>
+            <Bubble>I like jaguars.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3254</ID>
+            <Panel>elephants</Panel>
+            <Bubble>I like elephants.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3255</ID>
+            <Panel>giraffes</Panel>
+            <Bubble>I like giraffes.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3256</ID>
+            <Panel>unicorns</Panel>
+            <Bubble>I like unicorns.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3257</ID>
+            <Panel>Gumby</Panel>
+            <Bubble>I like Gumby.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3258</ID>
+            <Panel>Pokey</Panel>
+            <Bubble>I like Pokey.</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Colors</Panel>
+          <Phrase>
+            <ID>3350</ID>
+            <Panel>red</Panel>
+            <Bubble>I like red.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3351</ID>
+            <Panel>orange</Panel>
+            <Bubble>I like orange.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3352</ID>
+            <Panel>yellow</Panel>
+            <Bubble>I like yellow.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3353</ID>
+            <Panel>green</Panel>
+            <Bubble>I like green.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3354</ID>
+            <Panel>blue</Panel>
+            <Bubble>I like blue.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3355</ID>
+            <Panel>purple</Panel>
+            <Bubble>I like purple.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3356</ID>
+            <Panel>pink</Panel>
+            <Bubble>I like pink.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3357</ID>
+            <Panel>white</Panel>
+            <Bubble>I like white.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3358</ID>
+            <Panel>black</Panel>
+            <Bubble>I like black.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3359</ID>
+            <Panel>silver</Panel>
+            <Bubble>I like silver.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3360</ID>
+            <Panel>gold</Panel>
+            <Bubble>I like gold.</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Food</Panel>
+          <Phrase>
+            <ID>3450</ID>
+            <Panel>popsicles</Panel>
+            <Bubble>I like popsicles.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3451</ID>
+            <Panel>pizza</Panel>
+            <Bubble>I like pizza.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3452</ID>
+            <Panel>hamburgers</Panel>
+            <Bubble>I like hamburgers.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3453</ID>
+            <Panel>veggies</Panel>
+            <Bubble>I like veggies.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3354</ID>
+            <Panel>grilled cheese</Panel>
+            <Bubble>I like grilled cheese.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3455</ID>
+            <Panel>spaghetti</Panel>
+            <Bubble>I like spaghetti.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4356</ID>
+            <Panel>candy</Panel>
+            <Bubble>I like candy.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3457</ID>
+            <Panel>ice cream</Panel>
+            <Bubble>I like ice cream.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3458</ID>
+            <Panel>peanut butter</Panel>
+            <Bubble>I like peanut butter.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>3459</ID>
+            <Panel>cookies</Panel>
+            <Bubble>I like cookies.</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Music</Panel>
+          <Phrase>
+            <ID>4550</ID>
+            <Panel>to rock out</Panel>
+            <Bubble>I like to rock out.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4551</ID>
+            <Panel>all music</Panel>
+            <Bubble>I like all music.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4552</ID>
+            <Panel>hip hop music</Panel>
+            <Bubble>I like hip hop music.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4553</ID>
+            <Panel>country music</Panel>
+            <Bubble>I like country music.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4554</ID>
+            <Panel>classical music</Panel>
+            <Bubble>I like classical music.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4555</ID>
+            <Panel>techno music</Panel>
+            <Bubble>I like techno music.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4557</ID>
+            <Panel>jazz music</Panel>
+            <Bubble>I like jazz music</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4558</ID>
+            <Panel>blues music</Panel>
+            <Bubble>I like blues music.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4559</ID>
+            <Panel>rock music</Panel>
+            <Bubble>I like rock music.</Bubble>
+          </Phrase>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>I live...</Panel>
+        <Phrase>
+          <ID>4650</ID>
+          <Panel>near the ocean</Panel>
+          <Bubble>I live near the ocean.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4651</ID>
+          <Panel>in the desert</Panel>
+          <Bubble>I live in the desert.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4652</ID>
+          <Panel>in the city</Panel>
+          <Bubble>I live in the city.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4653</ID>
+          <Panel>on a farm</Panel>
+          <Bubble>I live on a farm.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4654</ID>
+          <Panel>in a tree house</Panel>
+          <Bubble>I live in a tree house.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4655</ID>
+          <Panel>in outer space</Panel>
+          <Bubble>I live in outer space.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4656</ID>
+          <Panel>in the jungle</Panel>
+          <Bubble>I live in the jungle.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4657</ID>
+          <Panel>on a boat</Panel>
+          <Bubble>I live on a boat.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4658</ID>
+          <Panel>on an island</Panel>
+          <Bubble>I live on an island.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>4658</ID>
+          <Panel>in a zoo</Panel>
+          <Bubble>I live in a zoo.</Bubble>
+        </Phrase>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>In action</Panel>
+      <Phrase>
+        <ID>4750</ID>
+        <Panel>Let's dance!</Panel>
+        <Bubble>Let's dance!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4751</ID>
+        <Panel>Let's race!</Panel>
+        <Bubble>Let's race!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4752</ID>
+        <Panel>Let's hang out!</Panel>
+        <Bubble>Let's hang out!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4753</ID>
+        <Panel>Let's chill!</Panel>
+        <Bubble>Let's chill!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4754</ID>
+        <Panel>Add me as a friend.</Panel>
+        <Bubble>Add me as a friend.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4755</ID>
+        <Panel>Look at that!</Panel>
+        <Bubble>Look at that!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4756</ID>
+        <Panel>I am lost.</Panel>
+        <Bubble>I am lost.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4757</ID>
+        <Panel>I don't know what to do.</Panel>
+        <Bubble>I don't know what to do.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>4758</ID>
+        <Panel>Ready...set...go!</Panel>
+        <Bubble>Ready...set...go!</Bubble>
+      </Phrase>
+      <Phrase>
+        <Panel>I am going...</Panel>
+        <Phrase>
+          <Panel>Places</Panel>
+          <Phrase>
+            <ID>4850</ID>
+            <Panel>to play Rodeo Racing</Panel>
+            <Bubble>I am going to play Rodeo Racing</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4851</ID>
+            <Panel>to Dance Off</Panel>
+            <Bubble>I am going to Dance Off</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4852</ID>
+            <Panel>to play Fashion Show</Panel>
+            <Bubble>I am going to play Fashion Show.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4853</ID>
+            <Panel>to the Enchanted Sanctuary</Panel>
+            <Bubble>I am going to the Enchanted Sanctuary</Bubble>
+          </Phrase>
+        </Phrase>
+        <Phrase>
+          <Panel>Activities</Panel>
+          <Phrase>
+            <ID>4860</ID>
+            <Panel>to change clothes</Panel>
+            <Bubble>I am going to change clothes.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>1564</ID>
+            <Panel>to dance</Panel>
+            <Bubble>I am going to dance.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4862</ID>
+            <Panel>to buy clothes</Panel>
+            <Bubble>I am going to buy clothes.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4863</ID>
+            <Panel>to get Style Points</Panel>
+            <Bubble>I am going to get Style Points.</Bubble>
+          </Phrase>
+          <Phrase>
+            <ID>4864</ID>
+            <Panel>to hang out</Panel>
+            <Bubble>I am going to hang out.</Bubble>
+          </Phrase>
+        </Phrase>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>Questions</Panel>
+      <Phrase>
+        <Panel>Game</Panel>
+        <Phrase>
+          <ID>5050</ID>
+          <Panel>Where are you going?</Panel>
+          <Bubble>Where are you going?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5051</ID>
+          <Panel>What do you like to do?</Panel>
+          <Bubble>What do you like to do?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5052</ID>
+          <Panel>What should we do?</Panel>
+          <Bubble>What should we do?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5053</ID>
+          <Panel>Will you follow me?</Panel>
+          <Bubble>Will you follow me?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5054</ID>
+          <Panel>Will you show me your favorite place?</Panel>
+          <Bubble>Will you show me your favorite place?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>50010</ID>
+          <Panel>Did you see the new game?</Panel>
+          <Bubble>Did you see the new game?</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>Invitations</Panel>
+        <Phrase>
+          <ID>5056</ID>
+          <Panel>Want to be my friend?</Panel>
+          <Bubble>Want to be my friend?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5057</ID>
+          <Panel>Want to dance?</Panel>
+          <Bubble>Want to dance?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5058</ID>
+          <Panel>Want to race at Rodeo Racing?</Panel>
+          <Bubble>Want to race at Rodeo Racing?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5059</ID>
+          <Panel>Want to explore?</Panel>
+          <Bubble>Want to explore?</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>person to person</Panel>
+        <Phrase>
+          <ID>5250</ID>
+          <Panel>What is your favorite animal?</Panel>
+          <Bubble>What is your favorite animal?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5251</ID>
+          <Panel>What is your favorite color?</Panel>
+          <Bubble>What is your favorite color?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5252</ID>
+          <Panel>What is your favorite food?</Panel>
+          <Bubble>What is your favorite food?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>5253</ID>
+          <Panel>What type of music do you like?</Panel>
+          <Bubble>What type of music do you like?</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>52005</ID>
+          <Panel>Where do you live?</Panel>
+          <Bubble>Where do you live?</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <ID>5255</ID>
+        <Panel>What did you say?</Panel>
+        <Bubble>What did you say?</Bubble>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>Sillies</Panel>
+      <Phrase>
+        <Panel>Laugh</Panel>
+        <Phrase>
+          <ID>6050</ID>
+          <Panel>Haha!</Panel>
+          <Bubble>Haha!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6051</ID>
+          <Panel>Hehe!</Panel>
+          <Bubble>Hehe!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6052</ID>
+          <Panel>Bwa-ha-ha-ha!</Panel>
+          <Bubble>Bwa-ha-ha-ha!</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>Animal speak</Panel>
+        <Phrase>
+          <ID>6150</ID>
+          <Panel>Woof!</Panel>
+          <Bubble>Woof!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6151</ID>
+          <Panel>Meow!</Panel>
+          <Bubble>Meow!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6152</ID>
+          <Panel>Quack!</Panel>
+          <Bubble>Quack!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6153</ID>
+          <Panel>Roar!</Panel>
+          <Bubble>Roar!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6154</ID>
+          <Panel>Ribbit!</Panel>
+          <Bubble>Ribbit!</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>Fashionista</Panel>
+        <Phrase>
+          <ID>6250</ID>
+          <Panel>Girl, you're rockin that outfit!</Panel>
+          <Bubble>Girl, you're rockin that outfit!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6251</ID>
+          <Panel>That Rocks!</Panel>
+          <Bubble>That Rocks!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6252</ID>
+          <Panel>That is soo cute! </Panel>
+          <Bubble>That is soo cute! </Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6253</ID>
+          <Panel>You go girlfriend! </Panel>
+          <Bubble>You go girlfriend! </Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6254</ID>
+          <Panel>I love your style!</Panel>
+          <Bubble>I love your style!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6255</ID>
+          <Panel>That's adorable</Panel>
+          <Bubble>That's adorable</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6256</ID>
+          <Panel>The whole look is fierce!</Panel>
+          <Bubble>The whole look is fierce!</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>Say what!</Panel>
+        <Phrase>
+          <ID>6257</ID>
+          <Panel>Like, totally!</Panel>
+          <Bubble>Like, totally!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6258</ID>
+          <Panel>Awesome!</Panel>
+          <Bubble>Awesome!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6259</ID>
+          <Panel>You're so sweet!</Panel>
+          <Bubble>You're so sweet!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6260</ID>
+          <Panel>Chill! </Panel>
+          <Bubble>Chill! </Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6261</ID>
+          <Panel>Dun dun dun...</Panel>
+          <Bubble>Dun dun dun...</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6262</ID>
+          <Panel>Mojo no no!</Panel>
+          <Bubble>Mojo no no!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6263</ID>
+          <Panel>Are you serious?!</Panel>
+          <Bubble>Are you serious?!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6264</ID>
+          <Panel>Sweet!</Panel>
+          <Bubble>Sweet!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6265</ID>
+          <Panel>La-di-da!</Panel>
+          <Bubble>La-di-da!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6266</ID>
+          <Panel>Kersplat!</Panel>
+          <Bubble>Kersplat!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6267</ID>
+          <Panel>Achoo!</Panel>
+          <Bubble>Achoo!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6265</ID>
+          <Panel>Blah blah BLAHHHH!</Panel>
+          <Bubble>Blah blah blah...</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>Text speak</Panel>
+        <Phrase>
+          <ID>6350</ID>
+          <Panel>LOL</Panel>
+          <Bubble>LOL</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6351</ID>
+          <Panel>BFF</Panel>
+          <Bubble>BFF</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6352</ID>
+          <Panel>JK</Panel>
+          <Bubble>JK</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6353</ID>
+          <Panel>IDK</Panel>
+          <Bubble>IDK</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6354</ID>
+          <Panel>PLZ</Panel>
+          <Bubble>PLZ</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6355</ID>
+          <Panel>THX</Panel>
+          <Bubble>THX</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6356</ID>
+          <Panel>BRB</Panel>
+          <Bubble>BRB</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6357</ID>
+          <Panel>CYA</Panel>
+          <Bubble>CYA</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6358</ID>
+          <Panel>TTYL</Panel>
+          <Bubble>TTYL</Bubble>
+        </Phrase>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>What the?!</Panel>
+      <Phrase>
+        <ID>6550</ID>
+        <Panel>Stop that!</Panel>
+        <Bubble>Stop that!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6551</ID>
+        <Panel>Please do not do that.</Panel>
+        <Bubble>Please do not do that.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6552</ID>
+        <Panel>Go away!</Panel>
+        <Bubble>Go away!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6553</ID>
+        <Panel>That is not very nice.</Panel>
+        <Bubble>That is not very nice.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6554</ID>
+        <Panel>You are in my personal bubble.</Panel>
+        <Bubble>You are in my personal bubble.</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6555</ID>
+        <Panel>Hurry up!</Panel>
+        <Bubble>Hurry up!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6556</ID>
+        <Panel>Wait for me!</Panel>
+        <Bubble>Wait for me!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6557</ID>
+        <Panel>Please slow down.</Panel>
+        <Bubble>Please slow down.</Bubble>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>Friendlies</Panel>
+      <Phrase>
+        <ID>6650</ID>
+        <Panel>Wow!</Panel>
+        <Bubble>Wow!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6651</ID>
+        <Panel>That was awesome!</Panel>
+        <Bubble>That was awesome!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6652</ID>
+        <Panel>Super cool!</Panel>
+        <Bubble>Super cool!</Bubble>
+      </Phrase>
+      <Phrase>
+        <ID>6653</ID>
+        <Panel>I'm glad you are here.</Panel>
+        <Bubble>I'm glad you are here.</Bubble>
+      </Phrase>
+      <Phrase>
+        <Panel>I like your...</Panel>
+        <Phrase>
+          <ID>6654</ID>
+          <Panel>style</Panel>
+          <Bubble>I like your style.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6655</ID>
+          <Panel>outfit</Panel>
+          <Bubble>I like your look.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6656</ID>
+          <Panel>name</Panel>
+          <Bubble>I like your name.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6657</ID>
+          <Panel>hair</Panel>
+          <Bubble>I like your hair.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6658</ID>
+          <Panel>mouth</Panel>
+          <Bubble>I like your mouth.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6659</ID>
+          <Panel>boots</Panel>
+          <Bubble>I like your shoes.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6660</ID>
+          <Panel>eyes</Panel>
+          <Bubble>I like your eyes.</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>You are...</Panel>
+        <Phrase>
+          <ID>6750</ID>
+          <Panel>awesome</Panel>
+          <Bubble>You are awesome!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6751</ID>
+          <Panel>funny</Panel>
+          <Bubble>You are funny!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6752</ID>
+          <Panel>pretty</Panel>
+          <Bubble>You are pretty.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6753</ID>
+          <Panel>handsome</Panel>
+          <Bubble>You are handsome.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6754</ID>
+          <Panel>stunning</Panel>
+          <Bubble>You are stunning.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6755</ID>
+          <Panel>crazy</Panel>
+          <Bubble>You are crazy.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6756</ID>
+          <Panel>cool</Panel>
+          <Bubble>You are cool.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6757</ID>
+          <Panel>great</Panel>
+          <Bubble>You are great.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6758</ID>
+          <Panel>goofy</Panel>
+          <Bubble>You are goofy.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6759</ID>
+          <Panel>one of a kind</Panel>
+          <Bubble>You are one of a kind.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6760</ID>
+          <Panel>my best friend</Panel>
+          <Bubble>You are my best friend.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6761</ID>
+          <Panel>lovely darling</Panel>
+          <Bubble>You are lovely darling.</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>Thanks</Panel>
+        <Phrase>
+          <ID>6850</ID>
+          <Panel>Thanks!</Panel>
+          <Bubble>Thanks!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6851</ID>
+          <Panel>Thank you!</Panel>
+          <Bubble>Thank you!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6852</ID>
+          <Panel>Thanks a bunch!</Panel>
+          <Bubble>Thanks a bunch!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6853</ID>
+          <Panel>Thanks for being my friend.</Panel>
+          <Bubble>Thanks for being my friend.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6854</ID>
+          <Panel>Thanks for showing me that.</Panel>
+          <Bubble>Thanks for showing me that.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6855</ID>
+          <Panel>You're welcome.</Panel>
+          <Bubble>You're welcome.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6856</ID>
+          <Panel>No problem!</Panel>
+          <Bubble>No problem!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6857</ID>
+          <Panel>Anytime.</Panel>
+          <Bubble>Anytime.</Bubble>
+        </Phrase>
+      </Phrase>
+      <Phrase>
+        <Panel>Sorry</Panel>
+        <Phrase>
+          <ID>6950</ID>
+          <Panel>Sorry!</Panel>
+          <Bubble>Sorry!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6951</ID>
+          <Panel>Oops, sorry!</Panel>
+          <Bubble>Oops, sorry!</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6952</ID>
+          <Panel>Sorry, I have to go.</Panel>
+          <Bubble>Sorry, I have to go.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6953</ID>
+          <Panel>Sorry, I am busy.</Panel>
+          <Bubble>Sorry, I am busy.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6954</ID>
+          <Panel>Sorry, I didn't mean that.</Panel>
+          <Bubble>Sorry, I didn't mean that.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6955</ID>
+          <Panel>I take it back.</Panel>
+          <Bubble>I take it back.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6956</ID>
+          <Panel>It's okay.</Panel>
+          <Bubble>It's okay.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6957</ID>
+          <Panel>Don't worry about it.</Panel>
+          <Bubble>Don't worry about it.</Bubble>
+        </Phrase>
+        <Phrase>
+          <ID>6958</ID>
+          <Panel>I forgive you.</Panel>
+          <Bubble>I forgive you.</Bubble>
+        </Phrase>
+      </Phrase>
+    </Phrase>
+    <Phrase>
+      <Panel>Yes.</Panel>
+      <ID>7050</ID>
+      <Bubble>Yes.</Bubble>
+    </Phrase>
+    <Phrase>
+      <Panel>No.</Panel>
+      <ID>7051</ID>
+      <Bubble>No.</Bubble>
+    </Phrase>
+    <Phrase>
+      <Panel>Maybe</Panel>
+      <ID>7052</ID>
+      <Bubble>Maybe.</Bubble>
+    </Phrase>
+    <Phrase>
+      <Panel>Follow me.</Panel>
+      <ID>7053</ID>
+      <Bubble>Follow me.</Bubble>
+    </Phrase>
+    <Phrase>
+      <Panel>Me too.</Panel>
+      <ID>7054</ID>
+      <Bubble>Me too.</Bubble>
+    </Phrase>
+  </CannedChat>
+</EmoticonActionData>
